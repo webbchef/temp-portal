@@ -1,0 +1,28 @@
+.App {
+  text-align: center;  
+  background-image: url("styrelsen-5.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+ 
+}
+
+h1{
+  color: white;
+  font-size: 50px;  
+  font-family: "Barlow, sans-serif !important",
+}
+p,a{
+  color: white;
+  display: inline;  
+}
+
+.overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;  
+  background-color: rgba(0,0,0,0.5);
+}
